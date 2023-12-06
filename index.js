@@ -12,6 +12,7 @@ app.get('/', (req,res)=>{
 
 app.post('/data', (req,res)=>{
     const data = req.body;
+    console.log(data);
     res.json(data);
 })
 
