@@ -1,7 +1,7 @@
 // script.js
 document.addEventListener('DOMContentLoaded', async () => {
     // Fetch power data from the server
-    const response = await fetch('http://localhost:3000/getChartData');
+    const response = await fetch('https://test-nodejs-server.vercel.app/getChartData');
     const data = await response.json();
 
     // Extract 'powerConsumed' and 'date' from the data
